@@ -20,4 +20,12 @@ To view data:
 5. Open the desired .csv file in your software of choice
 6. ** Make sure to eject the Pi's SD card safely before removing **
 
+Data is logged in the following formats:
 
+ADC and millivolt:
+
+  timestamp,vsd,vplus,vout,isd,temp,gnd
+
+Both:
+
+  timestamp,vsd_adc,vplus_adc,vout_adc,isd_adc,temp_adc,gnd_adc,vsd_mv,vplus_mv,vout_mv,isd_mv,temp_mv,gnd_mv
