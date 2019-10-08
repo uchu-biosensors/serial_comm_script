@@ -9,7 +9,7 @@ Instructions:
 5. Let the program run
 6. When you want to terminate the program, enter "Ctrl + C" on the keyboard
 
-Pinout:
+Pinout for Arduino:
 	
 	A0: Vsd
 	A1: V+
