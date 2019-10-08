@@ -5,6 +5,7 @@ import time
 
 port = "/dev/ttyACM0"
 baudrate = 9600
+filepath = "../CSV_files/"
 
 ser = serial.Serial(port, baudrate)
 
@@ -24,7 +25,7 @@ def transmit(msg):
 # Get input, read data, close file on keyboard interrupt
 try:
     # Get file name, open to append and create if file doesn't exist
-    filename = raw_input("Please enter a file name (don't forget .csv): ")
+    filename = filepath + raw_input("Please enter a file name (don't forget .csv): ")
     with open(filename, "a+") as f:
         # CSV header titles for importing to Excel
         f.write("Time (ms),Vsd (ADC),V+ (ADC),Vout (ADC),Isd (ADC),Temp (ADC),Gnd (ADC),")

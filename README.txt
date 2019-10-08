@@ -2,7 +2,7 @@ This repository contains a python script to receive and transmit information bet
 
 Instructions:
 
-1. Run "python serialcomms.py" in the terminal
+1. Run "python serialcomm.py" in the terminal
 2. Enter the name of the file you would like to save data to, with a .csv extension
 3. Enter the delay between samples you would like to use for data collection
 4. Enter the format of data you'd like to log (ADC output, millivolt output, or both)
