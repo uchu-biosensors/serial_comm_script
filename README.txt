@@ -9,6 +9,15 @@ Instructions:
 5. Let the program run
 6. When you want to terminate the program, enter "Ctrl + C" on the keyboard
 
+Pinout:
+	
+	A0: Vsd
+	A1: V+
+	A2: Vout
+	A3: Isd
+	A4: Temp
+	A5: Gnd
+
 To view data:
 
 ** Make sure to safely power off the Pi before viewing data **
@@ -28,4 +37,4 @@ ADC and millivolt:
 
 Both:
 
-  timestamp,vsd_adc,vplus_adc,vout_adc,isd_adc,temp_adc,gnd_adc,vsd_mv,vplus_mv,vout_mv,isd_mv,temp_mv,gnd_mv
+  timestamp,vsd_adc,vplus_adc,vout_adc,isd_adc,temp_adc,gnd_adc,vsd_mv,vplus_mv,vout_mv,isd_mv,temp_mv,gnd_mv`
