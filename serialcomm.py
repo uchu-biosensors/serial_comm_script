@@ -29,7 +29,7 @@ try:
     filename = filepath + raw_input("Please enter a file name (don't forget .csv): ")
     with open(filename, "a+") as f:
         # CSV header titles for importing to Excel
-        f.write("Time (ms),Vsd (ADC),V+ (ADC),Vout (ADC),Isd (ADC),Temp (ADC),Gnd (ADC),")
+        f.write("Time (sec),Vsd (ADC),V+ (ADC),Vout (ADC),Isd (ADC),Temp (ADC),Gnd (ADC),")
         f.write("Vsd (mV),V+ (mV),Vout (mV),Isd (mV),Temp (mV),Gnd (mV)\n")
         # Accept user input to pass to Arduino if appropriate, if not append data to CSV
         while True:
